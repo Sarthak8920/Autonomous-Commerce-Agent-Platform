@@ -6,7 +6,7 @@ import os
 BACKEND_URL = "https://autonomous-commerce-agent-platform.onrender.com/chat"
 
 st.set_page_config(
-    page_title="AURA-CX | Retail AI Agent",
+    page_title="Autonomous Commerce Agent Platform -- Enterprise-Scale Multi-Agent AI System for Retail & After-Sales Automation",
     page_icon="🤖",
     layout="centered"
 )
@@ -19,7 +19,7 @@ if "last_query" not in st.session_state:
     st.session_state.last_query = ""
 
 # ---------------- HEADER ----------------
-st.title("🤖 AURA-CX: Retail AI Agent")
+st.title("🤖 Autonomous Commerce Agent Platform -- Enterprise-Scale Multi-Agent AI System for Retail & After-Sales Automation")
 st.caption("Multi-Agent AI System powered by Groq, LangChain & LangGraph")
 st.divider()
 
