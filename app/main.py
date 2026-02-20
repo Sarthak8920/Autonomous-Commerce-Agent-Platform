@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from app.graph import app as graph_app
 
-api = FastAPI(title=""Autonomous Commerce Agent Platform -- Enterprise-Scale Multi-Agent AI System for Retail & After-Sales Automation"")
+api = FastAPI(title="Autonomous Commerce Agent Platform -- Enterprise-Scale Multi-Agent AI System for Retail & After-Sales Automation")
 
 
 class ChatRequest(BaseModel):
